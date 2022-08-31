@@ -7,7 +7,7 @@
 } 
 
 .modal-dialog{
-  max-width: 55%;
+  max-width: 50%;
 }
 
 .modal-title{
@@ -18,4 +18,25 @@
 
 .modal-tag{
   font-size: 1rem;
+}
+
+.tech-tag {
+  background-color: #FFFFFF;
+  color: #36B37E;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #36B37E;
+  color: #FFFFFF;
+  border: none;
+}
+
+.tech-tag:hover {
+  color: #36B37E;
+}
+
+.card-color {
+  background-color: #EBF0EE;
 }
