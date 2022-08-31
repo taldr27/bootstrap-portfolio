@@ -2,6 +2,9 @@
   min-height: 60vh;
 }
 
+.navbar-nav{
+  display: none;
+}
  .nav-link:hover { 
   color: #FFFFFF;
 } 
@@ -43,4 +46,17 @@
 
 .card-size {
   max-width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+  .welcome {
+    display: none;
+  }
+  .hamburger-menu{
+    display: none;
+  }
+  
+  .navbar-nav{
+    display: contents;
+  }
 }
