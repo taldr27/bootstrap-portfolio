@@ -1,0 +1,62 @@
+.square-box {
+  min-height: 60vh;
+}
+
+.nav-hidden{
+  display: none;
+}
+ .nav-link:hover { 
+  color: #FFFFFF;
+} 
+
+.modal-dialog{
+  max-width: 50%;
+}
+
+.modal-title{
+  color: #172B4D;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.modal-tag{
+  font-size: 1rem;
+}
+
+.tech-tag {
+  background-color: #FFFFFF;
+  color: #36B37E;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #36B37E;
+  color: #FFFFFF;
+  border: none;
+}
+
+.tech-tag:hover {
+  color: #36B37E;
+}
+
+.card-color {
+  background-color: #EBF0EE;
+}
+
+.card-size {
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+  .welcome {
+    display: none;
+  }
+  .hamburger-menu{
+    display: none;
+  }
+  
+  .nav-hidden{
+    display: contents;
+  }
+}
