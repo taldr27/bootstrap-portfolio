@@ -40,3 +40,7 @@
 .card-color {
   background-color: #EBF0EE;
 }
+
+.card-size {
+  max-width: 100%;
+}
