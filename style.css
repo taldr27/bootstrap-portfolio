@@ -5,3 +5,17 @@
  .nav-link:hover { 
   color: #FFFFFF;
 } 
+
+.modal-dialog{
+  max-width: 55%;
+}
+
+.modal-title{
+  color: #172B4D;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.modal-tag{
+  font-size: 1rem;
+}
