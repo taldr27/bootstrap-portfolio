@@ -25,14 +25,20 @@
 </head>
 <body>
         <header>
-            <div class="container-fluid row">
-                <h1 class="welcome h1 p-2"><a class="nav-link justify-content-start link-secondary" href="#" class="logo-text">Welcome</a></h1>
-                <a class="nav-link link-secondary hamburger-menu" href="#">
-                    <i class="fa-solid fa-bars"></i>
-                </a>
+            <div class="container-fluid">
+              <div class="row align-items-center ">
+                <div class="col text-start">
+                    <h1 class="welcome h1 p-2"><a class="nav-link link-secondary" href="#" class="logo-text">Welcome</a></h1>
+                </div>
+                <div class="col text-end">
+                    <a class="nav-link link-secondary hamburger-menu" href="#">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+              </div>
             </div>
             <nav class="navbar navbar-expand-sm justify-content-center">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav nav-hidden">
                     <li class="nav-item">
                         <a class="nav-link link-secondary" href="#my-recent-works">Portfolio</a>
                     </li>
