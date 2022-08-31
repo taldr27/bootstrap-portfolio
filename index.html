@@ -19,6 +19,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/1bc3a7e061.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -49,143 +50,157 @@
 
         <!-- <img class="back-desktop" alt="back-desktop" src="/img/background-desktop.svg"/>-->
         <section class="container justify-content-center">
-            <div class="land-container">
+            <div class="container square-box d-flex justify-content-center align-items-center">
                 <div class="pt-5 text-center">
-                    <h2 class="h2">Hey there. I'm Diego <span>I'm a software developer</span></h2>
-                    <p class="description"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                    <h2 class="h2">Hey there. I'm Diego <br><span>I'm a software developer</span></h2>
+                    <p class="pt-2 mx-5 px-5"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                         don’t hestiate to contact me.</p>
+                    <nav class="pt-1 navbar navbar-expand-sm justify-content-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link link-secondary" href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link link-secondary" href="#"><i class="fa-brands fa-linkedin-in">
+                                    </i></a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link link-secondary" href="#"><i class="fa-brands fa-github"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link link-secondary" href="#"><i class="fa-brands fa-angellist"></i></a>
+                                </li>
+                            </ul>
+                    </nav>
                 </div>
-            <!--     <div class="p-5 text-center">
+                <!--     <div class="p-5 text-center">
                     <p class="description"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                         don’t hestiate to contact me.</p>
                 </div> -->
-                <nav class="navbar navbar-expand-sm justify-content-center">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link link-secondary" href="#"><i class="fa-brands fa-twitter"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link link-secondary" href="#"><i class="fa-brands fa-linkedin-in">
-                            </i></a></li>
-                        <li class="nav-item">
-                            <a class="nav-link link-secondary" href="#"><i class="fa-brands fa-github"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link link-secondary" href="#"><i class="fa-brands fa-angellist"></i></a>
-                        </li>
-                    </ul>
-                </nav>
+
                 
             </div>
+
         </section>
         
         
-        <section id="my-recent-works" class="container justify-content-center">
+        <section id="my-recent-works" class="container ">
             
                 <div class="pt-5 pb-5 text-center">
                     <h2 class="h2">My Recent Works</h2>
                     <!-- <img class="line" alt="line-img" src="img/line.svg" /> -->
                 </div>
-                <section class="row ">
-                    <div class="card col-md-4">
-                        <img class="card-img-top" alt="project1-image" src="img/test.png" />
-                        <div class="card-body text-center">
-                            <h3 class="card-title text-center">Multi-Post Stories Gain+Glory</h3>
-                            <nav class="navbar navbar-expand-sm justify-content-center">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item"><a class="nav-link" href="#">Ruby on rails</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">CSS</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">JavaScript</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">HTML</a></li>
-                                </ul>
-                            </nav>
-                            
-                            <button class="btn btn-primary ">See Project</button>
+                <div class="row">
+                    <div class="col-md-4 p-3">
+                        <div class="card">
+                            <img class="card-img-top" alt="project1-image" src="img/test.png" />
+                            <div class="card-body text-center">
+                                <h3 class="card-title text-center">Multi-Post Stories Gain+Glory</h3>
+                                <nav class="navbar navbar-expand-sm justify-content-center">
+                                    <ul class="navbar-nav div-box">
+                                        <div class="div-box"><li class="nav-item"><a class="nav-link" href="#">Ruby on rails</a></li></div>
+                                        <li class="nav-item"><a class="nav-link" href="#">CSS</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">JavaScript</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">HTML</a></li>
+                                    </ul>
+                                </nav>
+                                
+                                <button class="btn btn-primary ">See Project</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="card col-md-4">
-                        <img class="card-img-top" alt="project2-image" src="img/test.png" />
-                        <div class="card-body">
-                            <h3 class="card-title text-center">Multi-Post Stories Gain+Glory</h3>
-                            <nav class="navbar navbar-expand-sm justify-content-center">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item"><a class="nav-link" href="#">Ruby on rails</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">CSS</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">JavaScript</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">HTML</a></li>
-                                </ul>
-                            </nav>
-                            
-                            <button class="btn btn-primary">See Project</button>
+                    <div class="col-md-4 p-3">
+                        <div class="card">
+                            <img class="card-img-top" alt="project1-image" src="img/test.png" />
+                            <div class="card-body text-center">
+                                <h3 class="card-title text-center">Multi-Post Stories Gain+Glory</h3>
+                                <nav class="navbar navbar-expand-sm justify-content-center">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item"><a class="nav-link" href="#">Ruby on rails</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">CSS</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">JavaScript</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">HTML</a></li>
+                                    </ul>
+                                </nav>
+                                
+                                <button class="btn btn-primary ">See Project</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="card col-md-4">
-                        <img class="card-img-top" alt="project3-image" src="img/test.png" />
-                        <div class="card-body">
-                            <h3 class="card-title text-center">Multi-Post Stories Gain+Glory</h3>
-                            <nav class="navbar navbar-expand-sm justify-content-center">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item"><a class="nav-link" href="#">Ruby on rails</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">CSS</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">JavaScript</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">HTML</a></li>
-                                </ul>
-                            </nav>
-                            
-                            <button class="btn btn-primary">See Project</button>
+                    <div class="col-md-4 p-3">
+                        <div class="card">
+                            <img class="card-img-top" alt="project1-image" src="img/test.png" />
+                            <div class="card-body text-center">
+                                <h3 class="card-title text-center">Multi-Post Stories Gain+Glory</h3>
+                                <nav class="navbar navbar-expand-sm justify-content-center">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item"><a class="nav-link" href="#">Ruby on rails</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">CSS</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">JavaScript</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">HTML</a></li>
+                                    </ul>
+                                </nav>
+                                
+                                <button class="btn btn-primary ">See Project</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="card col-md-4">
-                        <img class="card-img-top" alt="project4-image" src="img/test.png" />
-                        <div class="card-body">
-                            <h3 class="card-title text-center">Multi-Post Stories Gain+Glory</h3>
-                            <nav class="navbar navbar-expand-sm justify-content-center">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item"><a class="nav-link" href="#">Ruby on rails</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">CSS</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">JavaScript</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">HTML</a></li>
-                                </ul>
-                            </nav>
-                            
-                            <button class="btn btn-primary">See Project</button>
-                        </div>   
-                    </div>
-                    <div class="card col-md-4">
-                        <img class="card-img-top" alt="project5-image" src="img/test.png" />
-                        <div class="card-body">
-                            <h3 class="card-title text-center">Multi-Post Stories Gain+Glory</h3>
-                            <nav class="navbar navbar-expand-sm justify-content-center">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item"><a class="nav-link" href="#">Ruby on rails</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">CSS</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">JavaScript</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">HTML</a></li>
-                                </ul>
-                            </nav>
-                            
-                            <button class="btn btn-primary">See Project</button>
+                    <div class="col-md-4 p-3">
+                        <div class="card">
+                            <img class="card-img-top" alt="project1-image" src="img/test.png" />
+                            <div class="card-body text-center">
+                                <h3 class="card-title text-center">Multi-Post Stories Gain+Glory</h3>
+                                <nav class="navbar navbar-expand-sm justify-content-center">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item"><a class="nav-link" href="#">Ruby on rails</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">CSS</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">JavaScript</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">HTML</a></li>
+                                    </ul>
+                                </nav>
+                                
+                                <button class="btn btn-primary ">See Project</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="card col-md-4">
-                        <img class="card-img-top" alt="project5-image" src="img/test.png" />
-                        <div class="card-body">
-                            <h3 class="card-title text-center">Multi-Post Stories Gain+Glory</h3>
-                            <nav class="navbar navbar-expand-sm justify-content-center">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item"><a class="nav-link" href="#">Ruby on rails</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">CSS</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">JavaScript</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">HTML</a></li>
-                                </ul>
-                            </nav>
-                            
-                            <button class="btn btn-primary">See Project</button>
+                    <div class="col-md-4 p-3">
+                        <div class="card">
+                            <img class="card-img-top" alt="project1-image" src="img/test.png" />
+                            <div class="card-body text-center">
+                                <h3 class="card-title text-center">Multi-Post Stories Gain+Glory</h3>
+                                <nav class="navbar navbar-expand-sm justify-content-center">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item"><a class="nav-link" href="#">Ruby on rails</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">CSS</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">JavaScript</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">HTML</a></li>
+                                    </ul>
+                                </nav>
+                                
+                                <button class="btn btn-primary ">See Project</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <div class="card">
+                            <img class="card-img-top" alt="project1-image" src="img/test.png" />
+                            <div class="card-body text-center">
+                                <h3 class="card-title text-center">Multi-Post Stories Gain+Glory</h3>
+                                <nav class="navbar navbar-expand-sm justify-content-center">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item"><a class="nav-link" href="#">Ruby on rails</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">CSS</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">JavaScript</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">HTML</a></li>
+                                    </ul>
+                                </nav>
+                                
+                                <button class="btn btn-primary ">See Project</button>
+                            </div>
                         </div>
                     </div>
                     
 
-                </section>
+                </div
             
         </section>
 
